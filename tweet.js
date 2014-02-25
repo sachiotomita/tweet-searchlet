@@ -27,9 +27,7 @@ input = $input_pattern$;
 
 var
 global = ('global', eval)('this'), //global eval magic!
-OAuth = global.OAuth;
-//when OAuth.js didn't loaded, load OAuth.js
-if (typeof global.OAuth === 'undefined') OAuth = global.OAuth = _OAuth();
+OAuth = _OAuth(); //load OAuth
 
 var
 base = 'https://api.twitter.com/1.1',
