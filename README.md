@@ -27,8 +27,8 @@ and,
 ```
 $ node build.js
 authorize on browser at
-  https://api.twitter.com/oauth/authorize?oauth_token=TyeNPqK3rtEf7KrqhYKPd2d3Ak
-prompt: pin:  4430732
+  https://api.twitter.com/oauth/authorize?oauth_token=**********************
+prompt: pin:  *******
 successed to generate=> tweet.your_screen_name.js
 ```
 
