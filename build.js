@@ -153,7 +153,7 @@ async.waterfall([
   },
   
   function writeTweetCustomJS(replacedSrc, next) {
-    replacedSrc = 'javascript:' + replacedSrc; //append "javascript:" pseudo schema
+    replacedSrc = 'javascript:' + replacedSrc; //append "javascript:" pseudo protocol
     fs.writeFile(program.output, replacedSrc, 'utf8', next);
   },
 ], function (err) {

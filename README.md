@@ -6,7 +6,7 @@ let's tweet your browser's search bar!
 
 the searchlet is a program running on search bar (location bar) of browser.
 
-this is incernated by "javascript:" pseudo schema.
+this is incernated by "javascript:" pseudo protocol.
 
 Using sample:
 
