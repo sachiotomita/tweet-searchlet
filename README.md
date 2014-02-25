@@ -45,7 +45,7 @@ $ node build.js --help
 
     -h, --help                     output usage information
     -V, --version                  output the version number
-    -i, --input-pattern <pattern>  string to replace INPUT_PATTERN of tweet.js (default: "%s")
+    -i, --input-pattern <pattern>  string to replace INPUT_PATTERN of tweet.js (default: (function(){/*%s*/}).toString().match(//*(.*)*//)[1]
     -o, --output <filename>        output filename (default: tweet.<screen_name>.js)
     -c, --config <filename>        configuration filename (default: ./config.json)
 ```
