@@ -35,13 +35,13 @@ program = require('commander');
 
 program
   .version('0.1.0')
-  .option('-i, --input-pattern <pattern>', 'string to replace INPUT_PATTERN of tweet.js (default: "%s")', String)
+  .option('-i, --input-pattern <pattern>', 'string to replace INPUT_PATTERN of tweet.js (default: (function(){/*%s*/}).toString().match(/\/\*(.*)\*\//)[1]', String)
   .option('-o, --output <filename>', 'output filename (default: tweet.<screen_name>.js)', String)
   .option('-c, --config <filename>', 'configuration filename (default: ./config.json)', String)
   .parse(process.argv);
 
 _.defaults(program, {
-  inputPattern: '"%s"',
+  inputPattern: '(function(){/*%s*/}).toString().match(/\/\*(.*)\*\//)[1]',
   output: 'tweet.<screen_name>.js',
   config: './config.json',
 });
