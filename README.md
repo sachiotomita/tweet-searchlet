@@ -10,7 +10,7 @@ this is incernated by "javascript:" pseudo schema.
 
 Using sample:
 
-![Searchlet sample](https://raw.github.com/MakeNowJust/tweet-searchlet/master/image/tweet-searchlet.gif)
+![Searchlet sample](https://raw.github.com/MakeNowJust/tweet-searchlet/master/image/tweet_searchlet.gif)
 
 ##How use tweet searchlet?
 
