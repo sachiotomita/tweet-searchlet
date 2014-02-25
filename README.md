@@ -53,7 +53,7 @@ $ node build.js --help
 for example, when you want bookmarklet version, you should do:
 
 ```
-$ node build.js -i prompt('tweet','') -o tweet.<screen_name>.bookmarklet.js
+$ node build.js -i prompt('tweet','') -o "tweet.<screen_name>.bookmarklet.js"
 ```
 
 ##License
