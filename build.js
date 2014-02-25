@@ -1,3 +1,19 @@
+/*
+ * Copyright 2014, Tsuyusato Kitsune (@make_now_just).
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 //requires
 var
 fs       = require('fs'),
@@ -20,7 +36,7 @@ program = require('commander');
 program
   .version('0.1.0')
   .option('-i, --input-pattern <pattern>', 'string to replace INPUT_PATTERN of tweet.js (default: "%s")', String)
-  .option('-o, --output <filename>', 'output filename (default: tweet.<screen_name>.searchlet.js)', String)
+  .option('-o, --output <filename>', 'output filename (default: tweet.<screen_name>.js)', String)
   .option('-c, --config <filename>', 'configuration filename (default: ./config.json)', String)
   .parse(process.argv);
 

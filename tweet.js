@@ -1,5 +1,5 @@
 /*
- * Copyright 2014, Tuyusato Kitsune (@make_now_just).
+ * Copyright 2014, Tsuyusato Kitsune (@make_now_just).
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
